@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: #EEECEB;
+}
+
+footer{
+    position: fixed;
+    background: #140B5C;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer::before{
+    
+}
+
+footer .content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+}
+
+footer .content .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.content .top .logo-details{
+    color: #fff;
+    font-size: 30px;
+}
+
+.content .top .media-icons{
+    display: flex;
+}
+
+.content .top .media-icons a{
+    height: 40px;
+    width: 40px;
+    background: red;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.top .media-icons a:nth-child(1){
+    background: #4267B2;
+}
+
+.top .media-icons a:nth-child(1):hover{
+    color: #4267B2;
+    background: #fff;
+}
+
+.top .media-icons a:nth-child(2){
+    background: #000000;
+}
+
+.top .media-icons a:nth-child(2):hover{
+    color: #000000;
+    background: #fff;
+}
+
+.top .media-icons a:nth-child(3){
+    background: #ec1eca;
+}
+
+.top .media-icons a:nth-child(3):hover{
+    color: #ec1eca;
+    background: #fff;
+}
+
+.top .media-icons a:nth-child(4){
+    background: #0077B5;
+}
+
+.top .media-icons a:nth-child(4):hover{
+    color: #0077B5;
+    background: #fff;
+}
+
+.top .media-icons a:nth-child(5){
+    background: #FF0000;
+}
+
+.top .media-icons a:nth-child(5):hover{
+    color: #FF0000;
+    background: #fff;
+}
+
+footer .content .link-boxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .content .link-boxes .box{
+    background: red;
+    width: calc(100%/ 5- 10px);
+}
+
+.content .link-boxes .box .link_name{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.link-boxes .box .link_name::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+}
+
+.content .link-boxes .box li{
+
+}
